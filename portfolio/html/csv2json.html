@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/csvtojson-style.css">
+    <title>CSV to JSON</title>
+</head>
+<body>
+    <div>
+        <a class="title">CSV to JSON<a>
+    </div>
+    <div id="description">
+        <div><a>Begginer tier app idea used to convert a CSV text inputed by the user into a JSON text.</a></div>
+        <div><a>The implementation must match the fallowing user stories:</a></div>
+    </div>
+    <div id=userhistories>
+        <ul>
+            <li>User can paste CSV syntax into a text box.</li>
+            <li>User can click a 'Convert to JSON' button to validate the CSV text box and convert it to JSON.</li>
+            <li>User can see an warning message if the CSV text box is empty or if it doesn't contain valid CSV.</li>
+            <li>User can see the converted CSV in the JSON text box.</li>
+        </ul>
+    </div>
+    <div>
+        <a>Fill in the box with the csv text that you want to get converted to Json</a>
+    </div>
+    <div class="textarea-container">
+        <div><textarea placeholder="CSV in..." id="textarea-input"></textarea></div>
+        <div id="convert-button"><button type="button" id="send-csv">Convert to JSON</button></div>
+        <div><textarea placeholder="JSON out." id="textarea-output"></textarea></div>
+    </div>
+    <div>
+        <a href="../index.html">Página inicial</a>
+    </div>
+    
+</body>
+<script src="../js/csv2json-models.js"></script>
+<script src="../js/csv2json-controllers.js"></script>
+</html>

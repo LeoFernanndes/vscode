@@ -1,0 +1,69 @@
+html, body {
+    height: 90%;
+}
+
+/* header */
+.header-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 15%;
+    margin: 2% 0 0 0;
+}
+.lista-container {
+    display: flex;
+    width: 30%;
+    background-color:  rgb(255, 255, 255);
+    justify-content: space-between;
+    height: 100%;
+    margin-left: auto;
+}
+.lista-container .column-container {
+  width: 33.2%;
+}
+.lista-container a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.column-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 25%;
+}
+.hidden-list {
+    display: none;
+}
+.column-container:hover {
+    display: block;
+    height: 100%;
+}
+.column-container:hover div {
+    display: block;
+    height: 25%;
+}
+.column-container div:hover {
+    display: block;
+    height: 25%;
+    background-color: rgb(218, 217, 223);
+}
+
+/* post */
+.post-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: -2%;
+}
+
+/* title */
+.title-container {
+    background-color: rgb(255, 255, 255);
+}
+.title-container a {
+    font-size: 300%;
+}
+.subtitle-container {
+    margin: 0 0 1% 0;
+}
+
+/* image */
